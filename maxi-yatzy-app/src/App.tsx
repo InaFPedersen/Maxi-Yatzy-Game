@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import RulesPopup from "./Components/RulesPopup";
-import GameSetup from "./Components/GameSettup";
+import GameSetup from "./Components/GameSetup";
 
 function App() {
     const [rulesOpen, setRulesOpen] = useState(false);
