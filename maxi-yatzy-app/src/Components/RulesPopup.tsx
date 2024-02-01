@@ -2,7 +2,14 @@ const RulesPopup = () => {
     const header = "Maxi Yatzy Rules!";
 
     return (
-        <div>
+        <div
+            style={{
+                width: "1200px",
+                border: "1px solid black",
+                backgroundColor: "blanchedalmond",
+                marginLeft: "500px",
+            }}
+        >
             <h1>{header}</h1>
             <div className="text">
                 <h2>Components</h2>
@@ -11,7 +18,7 @@ const RulesPopup = () => {
                 <p>game sheets</p>
 
                 <h2>General rules</h2>
-                <p>You can play up to 9 players in this game</p>
+                <p>You can play up to 10 players in this game</p>
                 <p>
                     If you fail to obtain the target you get failed symbol -,
                     which will count as 0 points when summed together

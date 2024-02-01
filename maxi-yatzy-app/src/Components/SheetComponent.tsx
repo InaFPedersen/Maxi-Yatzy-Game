@@ -1,5 +1,6 @@
 const SheetComponent = () => {
     const test = "Maxi Yatzy";
+    let player = "";
     let player1 = "";
     let player2 = "";
     let player3 = "";
@@ -14,8 +15,14 @@ const SheetComponent = () => {
         <div>
             <h1>{test}</h1>
             <div>
-                <div className="board-header">
+                <div
+                    className="board-header"
+                    style={{ display: "flex", flexDirection: "row" }}
+                >
                     <div className="emptyCell"></div>
+                    <div className="player">
+                        <h2>{player}</h2>
+                    </div>
                     <div className="player1">
                         <h2>{player1}</h2>
                     </div>
@@ -44,7 +51,10 @@ const SheetComponent = () => {
                         <h2>{player9}</h2>
                     </div>
                 </div>
-                <div className="board-left-side">
+                <div
+                    className="board-left-side"
+                    style={{ display: "flex", flexDirection: "column" }}
+                >
                     <div className="top-part">
                         <div className="Ones">
                             <h2>Ones</h2>
@@ -68,7 +78,7 @@ const SheetComponent = () => {
                             <h2>Sum</h2>
                         </div>
                     </div>
-                    <div className="middle-part">
+                    <div className="bottom-part">
                         <div className="Bonus">
                             <h2>Bonus</h2>
                         </div>
@@ -108,8 +118,6 @@ const SheetComponent = () => {
                         <div className="full-straight">
                             <h2>Tower 2 + 4</h2>
                         </div>
-                    </div>
-                    <div className="bottom-part">
                         <div className="Chance">
                             <h2>Chance</h2>
                         </div>
