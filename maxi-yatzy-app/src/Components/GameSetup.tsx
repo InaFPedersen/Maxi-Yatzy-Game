@@ -117,6 +117,8 @@ const GameSetup = () => {
             setEightPlayerGame(false);
             setNinePlayerGame(false);
             setTenPlayerGame(true);
+        } else {
+            alert("You should fill out how many players you are!");
         }
         setChosenHowManyPlayers(true);
     };
@@ -167,11 +169,8 @@ const GameSetup = () => {
                             <option>10</option>
                         </select>
                     </div>
-                    <button
-                        onClick={renderCharacterNaming}
-                        style={{ fontSize: "24px" }}
-                    >
-                        Sumbit
+                    <button onClick={renderCharacterNaming} id="submit-button">
+                        Submit
                     </button>
                 </div>
 
