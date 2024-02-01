@@ -1,3 +1,9 @@
+# Maxi Yatzy application
+
+## Intro
+
+The maxi Yatzy is similar to normal Yatzy game, the only difference is that maxi Yatzy has 6 dices where normal Yatzy has 5 dices.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
