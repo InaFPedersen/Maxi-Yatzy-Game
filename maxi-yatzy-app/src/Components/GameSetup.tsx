@@ -167,7 +167,12 @@ const GameSetup = () => {
                             <option>10</option>
                         </select>
                     </div>
-                    <button onClick={renderCharacterNaming}>Sumbit</button>
+                    <button
+                        onClick={renderCharacterNaming}
+                        style={{ fontSize: "24px" }}
+                    >
+                        Sumbit
+                    </button>
                 </div>
 
                 {chosenHowManyPlayers ? (
