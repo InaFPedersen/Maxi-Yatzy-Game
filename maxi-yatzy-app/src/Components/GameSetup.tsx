@@ -37,6 +37,7 @@ const GameSetup = () => {
             setEightPlayerGame(false);
             setNinePlayerGame(false);
             setTenPlayerGame(false);
+            setChosenHowManyPlayers(true);
         } else if (numberOfPlayers === "3") {
             setTwoPlayerGame(false);
             setThreePlayerGame(true);
@@ -47,6 +48,7 @@ const GameSetup = () => {
             setEightPlayerGame(false);
             setNinePlayerGame(false);
             setTenPlayerGame(false);
+            setChosenHowManyPlayers(true);
         } else if (numberOfPlayers === "4") {
             setTwoPlayerGame(false);
             setThreePlayerGame(false);
@@ -57,6 +59,7 @@ const GameSetup = () => {
             setEightPlayerGame(false);
             setNinePlayerGame(false);
             setTenPlayerGame(false);
+            setChosenHowManyPlayers(true);
         } else if (numberOfPlayers === "5") {
             setTwoPlayerGame(false);
             setThreePlayerGame(false);
@@ -67,6 +70,7 @@ const GameSetup = () => {
             setEightPlayerGame(false);
             setNinePlayerGame(false);
             setTenPlayerGame(false);
+            setChosenHowManyPlayers(true);
         } else if (numberOfPlayers === "6") {
             setTwoPlayerGame(false);
             setThreePlayerGame(false);
@@ -77,6 +81,7 @@ const GameSetup = () => {
             setEightPlayerGame(false);
             setNinePlayerGame(false);
             setTenPlayerGame(false);
+            setChosenHowManyPlayers(true);
         } else if (numberOfPlayers === "7") {
             setTwoPlayerGame(false);
             setThreePlayerGame(false);
@@ -87,6 +92,7 @@ const GameSetup = () => {
             setEightPlayerGame(false);
             setNinePlayerGame(false);
             setTenPlayerGame(false);
+            setChosenHowManyPlayers(true);
         } else if (numberOfPlayers === "8") {
             setTwoPlayerGame(false);
             setThreePlayerGame(false);
@@ -97,6 +103,7 @@ const GameSetup = () => {
             setEightPlayerGame(true);
             setNinePlayerGame(false);
             setTenPlayerGame(false);
+            setChosenHowManyPlayers(true);
         } else if (numberOfPlayers === "9") {
             setTwoPlayerGame(false);
             setThreePlayerGame(false);
@@ -107,6 +114,7 @@ const GameSetup = () => {
             setEightPlayerGame(false);
             setNinePlayerGame(true);
             setTenPlayerGame(false);
+            setChosenHowManyPlayers(true);
         } else if (numberOfPlayers === "10") {
             setTwoPlayerGame(false);
             setThreePlayerGame(false);
@@ -117,10 +125,10 @@ const GameSetup = () => {
             setEightPlayerGame(false);
             setNinePlayerGame(false);
             setTenPlayerGame(true);
+            setChosenHowManyPlayers(true);
         } else {
             alert("You should fill out how many players you are!");
         }
-        setChosenHowManyPlayers(true);
     };
 
     return (
@@ -1357,6 +1365,7 @@ const GameSetup = () => {
                         ) : (
                             <></>
                         )}
+                        <button>Submit player names</button>
                     </div>
                 ) : (
                     <></>
