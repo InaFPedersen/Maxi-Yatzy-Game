@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import RulesPopup from "./Components/RulesPopup";
-import GameSetup from "./Components/GameSetup";
+import Game from "./Components/Game";
 
 function App() {
     const [rulesOpen, setRulesOpen] = useState(false);
@@ -44,11 +43,12 @@ function App() {
                 <button
                     onClick={RulesButton}
                     style={{
-                        position: "absolute",
-                        marginLeft: "900px",
+                        // position: "absolute",
+                        float: "right",
                         width: "120px",
                         height: "60px",
                         marginTop: "-90px",
+                        borderRadius: "50%",
                     }}
                 >
                     Game Rules
@@ -61,7 +61,7 @@ function App() {
                         border: "1px solid brown",
                     }}
                 >
-                    <GameSetup />
+                    <Game />
                 </div>
             </div>
         </div>

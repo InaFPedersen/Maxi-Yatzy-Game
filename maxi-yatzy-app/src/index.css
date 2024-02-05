@@ -23,3 +23,7 @@ option {
 button {
   font-size: 24px;
 }
+
+.name {
+  font-weight: bold;
+}
