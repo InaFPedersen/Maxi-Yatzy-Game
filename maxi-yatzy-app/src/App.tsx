@@ -43,12 +43,13 @@ function App() {
                 <button
                     onClick={RulesButton}
                     style={{
-                        // position: "absolute",
                         float: "right",
                         width: "120px",
-                        height: "60px",
-                        marginTop: "-90px",
+                        height: "100px",
+                        marginTop: "-110px",
+                        marginRight: "50px",
                         borderRadius: "50%",
+                        backgroundColor: "aliceblue",
                     }}
                 >
                     Game Rules
