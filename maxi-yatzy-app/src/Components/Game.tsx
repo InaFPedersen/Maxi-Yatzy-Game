@@ -71,6 +71,8 @@ const Game = () => {
     const [dice5CanBeChanged, setDice5CanBeChanged] = useState(true);
     const [dice6CanBeChanged, setDice6CanBeChanged] = useState(true);
     const [roundNr, setRoundNr] = useState("1");
+    const [roundText, setRoundText] = useState("");
+    const [turnNr, setTurnNr] = useState("");
     const randomDice1 = Math.floor(Math.random() * 6) + 1;
     const randomDice2 = Math.floor(Math.random() * 6) + 1;
     const randomDice3 = Math.floor(Math.random() * 6) + 1;
